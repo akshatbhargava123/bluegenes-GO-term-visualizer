@@ -21,7 +21,7 @@ describe('query', () => {
 			mockData.service,
 			filterOptions,
 			imjs
-		);
+		).catch(error => console.log(error));
 
 		expect(promise).resolves.toBeInstanceOf(Array);
 		return promise.then(res => {

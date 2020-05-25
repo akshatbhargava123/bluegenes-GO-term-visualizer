@@ -16,8 +16,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm test"
+      "pre-commit": "",
+      "pre-push": ""
     }
   },
   "lint-staged": {
@@ -32,16 +32,12 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "chart.js": "^2.8.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
-  },
-  "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "@babel/preset-react": "^7.0.0",
-    "@types/jest": "^24.0.13",
+    "@types/jest": "^24.9.1",
     "babel-loader": "^8.0.6",
+    "chart.js": "^2.8.0",
     "chokidar": "^3.0.0",
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.2.0",
@@ -56,8 +52,11 @@
     "less-plugin-clean-css": "^1.5.1",
     "lint-staged": "^8.1.6",
     "prettier": "^1.17.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "socket.io": "^2.2.0",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0"
-  }
+  },
+  "devDependencies": {}
 }
